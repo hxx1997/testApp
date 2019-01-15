@@ -1,0 +1,246 @@
+html {
+  font-size: 20 px;
+}
+#box {
+  width: 18.75rem;
+  height: 33.35rem;
+  background: #ececf4;
+  position: relative;
+}
+#one {
+  width: 18.75rem;
+  height: 1rem;
+  background: #fff;
+}
+#two {
+  width: 18.75rem;
+  height: 2.05rem;
+  position: relative;
+  background: #fff;
+}
+#two div {
+  text-align: center;
+  line-height: 2.05rem;
+  font-size: 0.8rem;
+}
+#two :nth-child(2) {
+  position: absolute;
+  left: 0.4rem;
+  top: 0;
+  font-size: 0.75rem;
+  line-height: 2.05rem;
+}
+#two :nth-child(3) {
+  position: absolute;
+  left: 1.8rem;
+  top: 0;
+  font-size: 0.6rem;
+  line-height: 2.05rem;
+}
+#three {
+  width: 18.75rem;
+  height: 5.5rem;
+  margin-top: 0.75rem;
+  background: #c6c6c6;
+}
+#three #headImg {
+  position: absolute;
+  width: 3.8rem;
+  height: 3.8rem;
+  background: #eedec6;
+  border-radius: 50%;
+  margin-left: 1.55rem;
+  margin-top: 0.9rem;
+}
+#three #text {
+  width: 6.2rem;
+  height: 2.05rem;
+  position: absolute;
+  font-size: 0.7rem;
+  color: #fff;
+  margin-left: 6.8rem;
+  margin-top: 2.15rem;
+}
+#three #text p {
+  margin-top: 0.2rem;
+}
+#three #text p span {
+  margin-right: 0.4rem;
+}
+#four {
+  width: 18.75rem;
+  height: 1.8rem;
+  background: #fff;
+  margin-top: 0.65rem;
+}
+#four ul {
+  width: 100%;
+  display: flex;
+}
+#four ul li {
+  flex: 1;
+  text-align: center;
+  margin-top: 0.25rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  font-size: 0.75rem;
+  border-right: 1px solid #161616;
+}
+#four ul li span {
+  margin-right: 0.55rem;
+}
+#four ul :last-child {
+  border-right: none;
+}
+#five {
+  height: 1.65rem;
+  width: 18.75rem;
+  background: #fff;
+  margin-top: 0.55rem;
+}
+#five div {
+  width: 18.4rem;
+  height: 100%;
+  border-bottom: 0.1px solid #959595;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  position: relative;
+}
+#five div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#five div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#six {
+  height: 1.65rem;
+  width: 18.75rem;
+  font-size: 0.6rem;
+  background: #fff;
+}
+#six div {
+  width: 18.4rem;
+  height: 100%;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  position: relative;
+}
+#six div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#six div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#seven {
+  height: 1.65rem;
+  width: 18.75rem;
+  font-size: 0.6rem;
+  margin-top: 0.55rem;
+  background: #fff;
+}
+#seven div {
+  width: 18.4rem;
+  height: 100%;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  position: relative;
+}
+#seven div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#seven div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#eight {
+  height: 1.65rem;
+  width: 18.75rem;
+  background: #fff;
+  margin-top: 0.55rem;
+}
+#eight div {
+  width: 18.4rem;
+  height: 100%;
+  border-bottom: 0.4px solid #626262;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  position: relative;
+}
+#eight div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#eight div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#nine,
+#ten {
+  height: 1.65rem;
+  width: 18.75rem;
+  font-size: 0.6rem;
+  background: #fff;
+}
+#nine div,
+#ten div {
+  width: 18.4rem;
+  height: 100%;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  border-bottom: 0.1px solid #959595;
+  position: relative;
+}
+#nine div :nth-child(1),
+#ten div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#nine div :nth-child(2),
+#ten div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#eleven {
+  height: 1.65rem;
+  width: 18.75rem;
+  font-size: 0.6rem;
+  background: #fff;
+}
+#eleven div {
+  width: 18.4rem;
+  height: 100%;
+  margin-left: 0.35rem;
+  font-size: 0.6rem;
+  line-height: 1.65rem;
+  position: relative;
+}
+#eleven div :nth-child(1) {
+  margin-left: 0.5rem;
+}
+#eleven div :nth-child(2) {
+  position: absolute;
+  right: 0.6rem;
+}
+#bottom {
+  width: 18.75rem;
+  height: 2.4rem;
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+#bottom ul {
+  display: flex;
+}
+#bottom li {
+  flex: 1;
+  font-size: 0.55rem;
+  text-align: center;
+}
+#bottom li p {
+  font-size: 1.05rem;
+}
