@@ -1,0 +1,127 @@
+html {
+  font-size: 20 px;
+}
+#top {
+  width: 16rem;
+  height: 2.5rem;
+  background: #fbfbfb;
+  display: flex;
+}
+#top :nth-child(1) {
+  font-size: 0.6rem;
+  line-height: 2.5rem;
+  margin-left: 1.65rem;
+}
+#top :nth-child(2) {
+  font-size: 1rem;
+  line-height: 2.5rem;
+  margin-left: 3.35rem;
+  color: #d51938;
+}
+.swiper-container {
+  width: 16rem;
+  height: 7rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  width: 16rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #fff;
+  text-align: center;
+}
+.swiper-container .swiper-wrapper :nth-child(1) {
+  background: #ff5a42;
+}
+.swiper-container .swiper-wrapper :nth-child(2) {
+  background: pink;
+}
+.swiper-container .swiper-wrapper :nth-child(3) {
+  background: #e89748;
+}
+.swiper-container .swiper-wrapper :nth-child(4) {
+  background: limegreen;
+}
+.listBox {
+  width: 16rem;
+  height: 8.5rem;
+  margin-top: 0.25rem;
+}
+.listBox .list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.listBox .list .item {
+  width: 2rem;
+  height: 2rem;
+  margin: 0.65rem;
+  margin-bottom: 1.5rem;
+  background: #e37498;
+  border-radius: 50%;
+  position: relative;
+}
+.listBox .list .item span {
+  position: absolute;
+  margin-top: 2.45rem;
+  display: block;
+  width: 2rem;
+  text-align: center;
+  font-size: 0.55rem;
+  color: #484848;
+}
+#title {
+  width: 15rem;
+  height: 0.75rem;
+  margin-top: 1.55rem;
+  margin-left: 0.5rem;
+  border-left: 3px solid #d51938;
+  display: flex;
+}
+#title span {
+  font-size: 0.65rem;
+  line-height: 0.75rem;
+  font-weight: bold;
+  color: #444444;
+}
+#title :nth-child(1) {
+  margin-left: 0.45rem;
+}
+#title :nth-child(2) {
+  margin-left: 7.2rem;
+}
+#line {
+  width: 15rem;
+  height: 0.1rem;
+  background: #dcdcdc;
+  margin: 0.5rem;
+}
+#goods {
+  width: 15rem;
+  height: 35rem;
+  margin-top: 0.8rem;
+  margin-left: 0.5rem;
+}
+#goods li {
+  width: 15rem;
+  height: 3rem;
+  background: #f4f4f4;
+  margin-bottom: 0.55rem;
+  display: flex;
+}
+#goods li :nth-child(1) {
+  width: 1.5rem;
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  font-size: 0.95rem;
+  text-align: center;
+}
+#goods li :nth-child(2) {
+  width: 4.5rem;
+  height: 3rem;
+}
+#goods li :nth-child(2) img {
+  width: 4.5rem;
+  height: 3rem;
+  background-size: contain;
+}
