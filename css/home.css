@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html {
+  font-size: 20 px;
+}
+#home-Top {
+  width: 16rem;
+  height: 1.45rem;
+  background: #FFB86D;
+  display: flex;
+}
+#home-Top :nth-child(1) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
+#home-Top :nth-child(2) {
+  flex: 5;
+  text-align: center;
+  line-height: 1.45rem;
+  color: #fff;
+  font-size: 0.65rem;
+  font-family: '幼圆';
+}
+#home-Top :nth-child(3) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.swiper-container {
+  width: 16rem;
+  height: 8.75rem;
+}
+.swiper-container .swiper-slide {
+  width: 16rem;
+  height: 8.75rem;
+}
+#menu-Box {
+  width: 16rem;
+  height: 4rem;
+  background: #edb1bc;
+  display: flex;
+}
+#menu-Box li {
+  flex: 1;
+}
+#menu-Box li :nth-child(1) {
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid sienna;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  margin-top: 0.125rem;
+}
+#menu-Box li :nth-child(2) {
+  display: inline-block;
+  width: 4rem;
+  height: 0.7rem;
+  line-height: 0.75rem;
+  font-size: 0.6rem;
+  text-align: center;
+  margin-top: -0.7rem;
+}

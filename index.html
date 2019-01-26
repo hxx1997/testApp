@@ -5,58 +5,28 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1，shrink-to-fit=no, viewport-fit=cover">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="stylesheet" href="swiper-4.4.6/dist/css/swiper.min.css">
-    <link rel="stylesheet" href="homework.css">
-    <script src="swiper-4.4.6/dist/js/swiper.min.js"></script>
+
     <title>Title</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="dist/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="font/font_08oluxlvmwj3/iconfont.css">
 </head>
 <body>
-    <div id="top">
-        <div> < 返回 </div>   <div>聚划算</div>
-    </div>
 
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">slider1</div>
-            <div class="swiper-slide">slider2</div>
-            <div class="swiper-slide">slider3</div>
-            <div class="swiper-slide">slider4</div>
-        </div>
-    </div>
+   <div id="frame-Box">
+       <iframe src="pages/home.html" frameborder="0"  name="ibox" ></iframe>
+   </div>
 
-    <div class="listBox">
-        <ul class="list">
-            <li class="item"><span>商品</span></li>
-            <li class="item"><span>生活</span></li>
-            <li class="item"><span>品牌</span></li>
-            <li class="item"><span>聚宝盆</span></li>
-            <li class="item"><span>聚名品</span></li>
-            <li class="item"><span>聚家装</span></li>
-            <li class="item"><span>聚透</span></li>
-            <li class="item"><span>客户端</span></li>
-        </ul>
-    </div>
+   <div id="navBar">
+       <ul>
+           <li><a href="pages/home.html" target="ibox"><i class="iconfont">&#xe722;</i>首页</a></li>
+           <li><a href="pages/collect.html" target="ibox"><i class="iconfont">&#xe62b;</i>收藏</a></li>
+           <li><a href="pages/more.html" target="ibox"><i class="iconfont">&#xe608;</i>更多</a></li>
+       </ul>
 
-    <div id="title">
-        <span>聚划算热卖排行</span>  <span>TOP 10</span>
-    </div>
 
-    <div id="line"></div>
+   </div>
 
-    <div id="goods">
-        <ul>
-            <li> <div style="background: #e00202">1</div> <div><img src="1.jpg" alt=""></div> <div></div></li>
-            <li> <div style="background: #ff4800">2</div> <div><img src="2.jpg" alt=""></div> <div></div></li>
-            <li> <div style="background: #ff7300">3</div> <div><img src="3.jpg" alt=""></div> <div></div></li>
-        </ul>
-    </div>
 </body>
 <script>
     (function (win,doc) {
@@ -67,10 +37,6 @@
         win.addEventListener('resize',change,false)
     })(window,document);
 
-
-    var mySwiper = new Swiper('.swiper-container', {
-        autoplay: true,//可选选项，自动滑动
-    })
 
 </script>
 </html>
