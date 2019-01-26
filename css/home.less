@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@baseFontSize:20;
+
+html{
+  font-size: @baseFontSize+px;
+  background: #F4F6F6;;
+}
+
+.px2rem(@name, @px){
+    @{name}: @px /2/@baseFontSize * 1rem;
+}
+
+
+
+.swiper-container{
+  .px2rem(width,640);
+  .px2rem(height,320);
+
+  .swiper-slide{
+    .px2rem(width,640);
+    .px2rem(height,320);
+    img{
+      .px2rem(width,640);
+      .px2rem(height,320);
+      background-size: contain;
+    }
+  }
+}
+
+#menu-Box{
+  .px2rem(width,612);
+  .px2rem(margin-left,14);
+  .px2rem(margin-top,12);
+  .px2rem(height,152);
+  background: #fff;
+  display:flex;
+  li{
+    flex: 1;
+    div{
+      .px2rem(width,80);
+      .px2rem(height,80);
+      //border: 1px solid sienna;
+      border-radius: 50%;
+      .px2rem(margin-left,32);
+      .px2rem(margin-top,16);
+      overflow: hidden;
+      img{
+        .px2rem(width,80);
+        .px2rem(height,80);
+        background-size: contain;
+      }
+    }
+    span{
+      display: inline-block;
+      .px2rem(width,150);
+      .px2rem(height,28);
+      .px2rem(line-height,30);
+      .px2rem(font-size,24);
+      text-align: center;
+      .px2rem(margin-top,-80);
+    }
+  }
+}
+
+#content-Box{
+  .px2rem(width,612);
+  .px2rem(height,800);
+  .px2rem(margin-left,14);
+  .px2rem(margin-top,12);
+  background: #fff;
+
+  .item1{
+    .px2rem(width,612);
+    .px2rem(height,268);
+    .itemName{
+      .px2rem(width,100);
+      .px2rem(height,58);
+      //border: 1px solid sienna;
+      .px2rem(font-size,30);
+      .px2rem(margin-left,50);
+      .px2rem(margin-top,10);
+      .px2rem(line-height,50);
+      float: left;
+    }
+    .moreLink{
+      .px2rem(margin-left,350);
+      float: left;
+      .px2rem(width,100);
+      .px2rem(height,58);
+      a{
+        text-decoration: none;
+        .px2rem(font-size,22);
+        color:#ccc;
+        .px2rem(line-height,72);
+      }
+    }
+  }
+  .swiper-container2{
+     .px2rem(width,612);
+     .px2rem(height,200);
+    .px2rem(margin-top,20);
+    .swiper-slide{
+      .px2rem(width,240);
+      .px2rem(height,180);
+      .px2rem(margin-left,28);
+      //border:1px solid sienna;
+      border-radius: 4%;
+      overflow: hidden;
+      .itemImg{
+        .px2rem(width,240);
+        .px2rem(height,135);
+        background-size: contain;
+      }
+      p{
+        .px2rem(font-size,23);
+      }
+    }
+   }
+}

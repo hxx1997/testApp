@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html {
+  font-size: 20 px;
+}
+#home-Top {
+  width: 16rem;
+  height: 1.45rem;
+  background: #FFB86D;
+  display: flex;
+}
+#home-Top :nth-child(1) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
+#home-Top :nth-child(2) {
+  flex: 5;
+  text-align: center;
+  line-height: 1.45rem;
+  color: #fff;
+  font-size: 0.65rem;
+  font-family: '幼圆';
+}
+#home-Top :nth-child(3) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
