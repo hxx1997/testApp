@@ -6,6 +6,37 @@
 html {
   font-size: 20 px;
 }
+#top {
+  width: 16rem;
+  height: 1.45rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #FFB86D;
+  display: flex;
+}
+#top :nth-child(1) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
+#top :nth-child(2) {
+  flex: 5;
+  text-align: center;
+  line-height: 1.45rem;
+  color: #fff;
+  font-size: 0.65rem;
+  font-family: '幼圆';
+}
+#top :nth-child(3) {
+  flex: 1;
+  text-align: center;
+  line-height: 1.45rem;
+  font-size: 0.75rem;
+  color: #fff;
+}
 #navBar {
   width: 16rem;
   height: 2.15rem;
@@ -40,5 +71,5 @@ html {
 }
 #frame-Box iframe {
   width: 16rem;
-  height: 26.25rem;
+  height: 24.8rem;
 }

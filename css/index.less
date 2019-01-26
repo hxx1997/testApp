@@ -13,6 +13,38 @@ html{
     @{name}: @px /2/@baseFontSize * 1rem;
 }
 
+#top{
+  .px2rem(width,640);
+  .px2rem(height,58);
+  position:fixed;
+  top:0;
+  left:0;
+  background: #FFB86D;
+  display:flex;
+  :nth-child(1){
+    flex: 1;
+    text-align: center;
+    .px2rem(line-height,58);
+    .px2rem(font-size,30);
+    color:#fff;
+  }
+  :nth-child(2){
+    flex: 5;
+    text-align: center;
+    .px2rem(line-height,58);
+    color:#fff;
+    .px2rem(font-size,26);
+    font-family: '幼圆';
+  }
+  :nth-child(3){
+    flex: 1;
+    text-align: center;
+    .px2rem(line-height,58);
+    .px2rem(font-size,30);
+    color:#fff;
+  }
+}
+
 #navBar{
   .px2rem(width,640);
   .px2rem(height,86);
@@ -50,6 +82,6 @@ html{
 
 #frame-Box iframe{
   .px2rem(width,640);
-  .px2rem(height,1050);
+  .px2rem(height,992);
   //background: #F4F6F6;
 }

@@ -10,7 +10,6 @@ html {
 #home-Top {
   width: 16rem;
   height: 1.45rem;
-  background: #FFB86D;
   display: flex;
 }
 #home-Top :nth-child(1) {
@@ -63,7 +62,7 @@ html {
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  margin-left: 1rem;
+  margin-left: 0.8rem;
   margin-top: 0.4rem;
   overflow: hidden;
 }
@@ -74,10 +73,17 @@ html {
 }
 #menu-Box li span {
   display: inline-block;
-  width: 4rem;
+  width: 3.75rem;
   height: 0.7rem;
   line-height: 0.75rem;
   font-size: 0.6rem;
   text-align: center;
   margin-top: -2rem;
+}
+#content-Box {
+  width: 15.3rem;
+  height: 20rem;
+  margin-left: 0.35rem;
+  margin-top: 0.25rem;
+  background: #fff;
 }
