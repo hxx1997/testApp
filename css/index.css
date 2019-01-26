@@ -9,8 +9,8 @@ html {
 #navBar {
   width: 16rem;
   height: 2.15rem;
+  background: #F2F2F2;
   border-top: 0.1px solid #eeeeee;
-  background: #fff;
   position: fixed;
   bottom: 0;
 }
