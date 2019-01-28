@@ -55,16 +55,26 @@ html {
 }
 #content-Box {
   width: 15.3rem;
-  height: 20rem;
+  height: 43rem;
   margin-left: 0.35rem;
   margin-top: 0.3rem;
   background: #fff;
 }
-#content-Box .item1 {
+#content-Box .item1,
+#content-Box .item2,
+#content-Box .item3,
+#content-Box .item4,
+#content-Box .item5,
+#content-Box .item6 {
   width: 15.3rem;
   height: 6.7rem;
 }
-#content-Box .item1 .itemName {
+#content-Box .item1 .itemName,
+#content-Box .item2 .itemName,
+#content-Box .item3 .itemName,
+#content-Box .item4 .itemName,
+#content-Box .item5 .itemName,
+#content-Box .item6 .itemName {
   width: 2.5rem;
   height: 1.45rem;
   font-size: 0.75rem;
@@ -73,13 +83,23 @@ html {
   line-height: 1.25rem;
   float: left;
 }
-#content-Box .item1 .moreLink {
+#content-Box .item1 .moreLink,
+#content-Box .item2 .moreLink,
+#content-Box .item3 .moreLink,
+#content-Box .item4 .moreLink,
+#content-Box .item5 .moreLink,
+#content-Box .item6 .moreLink {
   margin-left: 8.75rem;
   float: left;
   width: 2.5rem;
   height: 1.45rem;
 }
-#content-Box .item1 .moreLink a {
+#content-Box .item1 .moreLink a,
+#content-Box .item2 .moreLink a,
+#content-Box .item3 .moreLink a,
+#content-Box .item4 .moreLink a,
+#content-Box .item5 .moreLink a,
+#content-Box .item6 .moreLink a {
   text-decoration: none;
   font-size: 0.55rem;
   color: #ccc;

@@ -41,11 +41,14 @@ html {
 #frame-Box iframe {
   width: 16rem;
   height: 24.8rem;
+  height: 58rem;
 }
 #home-Top {
   width: 16rem;
   height: 1.45rem;
   background: #FFB86D;
+  position: fixed;
+  top: 0;
   display: flex;
 }
 #home-Top :nth-child(1) {
